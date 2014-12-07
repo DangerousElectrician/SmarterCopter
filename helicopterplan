@@ -1,0 +1,67 @@
+All design ideas must incorporate the use three different TI devices, integrated circuits (“ICs”) and a TI processor. Analog ICs must come from the following categories: 
+(i) data converters; 
+(ii) amplifiers; 
+(iii) power management devices; 
+(iv) interface devices;  
+(v) switches; 
+(vi) RF devices; 
+(vii) temperature sensors; 
+(viii) clocks and timers; and 
+(ix) comparators. All TI processors are accepted. Other TI devices may be incorporated into the design, but only those integrated circuits in the categories above will be counted toward the IC Requirements.
+
+Power management
+	Regulated 2.8v power
+		Lipo battery is as high as 4.3 and low as 3.0 loaded
+		LDO or switcher?
+	battery management
+		*Single cell lipo 160 mAh 
+			Different mAh might be used
+			http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=11893
+				Really cheap
+			Does this battery use a JST-XH or Parkzone Pico connector?
+		no charging circuitry onboard
+			Make battery removable and charge outside helicopter
+		*1.8 amp current draw average more current draw peak
+		keep battery happy
+			battery voltage limits
+		gas gauge if easy
+		Current limiting?
+			high peak current draw from motors may cause issues
+
+Sensing
+	9-dof Invensense gyro/accel/compass/ MPU-9250 MPU-6050
+	MS5611 barometer get from newark
+
+Communication
+	radio
+		low power bluetooth
+		xbee
+		zigbee
+		wifi
+	Radio microcontroller SoC
+
+Processor
+	2.8v
+	i2c
+	freertos?
+	pins
+		i2c	2
+		motpwm	4
+		uart	2
+
+Motor drivers
+	tail rotor
+		DRV8837DSGR
+			single full h bridge
+			8-wfdfn
+	main rotor
+		mosfet
+			pmv31xn
+			bsh108
+		mosfet array to save space
+			SIA910EDJ-T1-GE3
+				feels weird, seems too small for power
+
+
+
+
