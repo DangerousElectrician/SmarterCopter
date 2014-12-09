@@ -41,6 +41,8 @@ Sensing
 		gyro ranges: 250,500,1000,2000 deg/s
 		accel ranges: 2,4,8,16 g
 		mag ranges: 14 bit (0.6µT/LSB) or 16 bit (15µT/LSB) 
+		has proprietary digital motion processor
+		can perform basic 6-axis sensor fusion
 	LSM330 6-dof
 		gyro: 250,500,2000 deg/s
 		acc: 2,4,6,8,16 g
