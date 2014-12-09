@@ -48,9 +48,9 @@ Sensing
 
 Communication
 	radio
-		low power bluetooth
-		zigbee
-		wifi
+		low power bluetooth - wins on googlefight, star network, first look appears easy to set up 
+		zigbee - supports mesh network, feels more difficult to set up
+		wifi - bitrate overkill for just controlling helicopter, capable of video stream
 	Radio microcontroller SoC
 	antenna size
 
@@ -61,22 +61,42 @@ Processor
 		Read sensors
 		PWM motors
 	2.8v
-	i2c
+	*i2c - need for sensors
 	freertos?
 	cyclic executive?
 	pins
 		*i2c	2
 		*motpwm	4
 		uart	2
+		*6 gpio minimum
 	CC3200
 		simplelink wifi
-		9mmx9mm - too big to fit in copter
+		9mmx9mm - too big to fit on copter mainboard, can be hung outside though
 		ARM Cortex-M4 @ 80MHz
-	CC2541
+	CC2540
+		low energy bluetooth
+                6mmx6mm
+                8051 @ 32 MHz
+                has USB peripheral instead of i2c
+	*CC2541 - I like this one the best
 		low energy bluetooth
 		6mmx6mm
 		8051 @ 32 MHz
-
+		has i2c peripheral
+		128 or 256 KB flash
+		2v-3.6v supply
+	CC2530
+		zigbee
+		6mmx6mm QFN40
+		8051
+		no i2c
+	CC2533 - I also like this
+		zigbee
+		6mmx6mm
+		8051
+		64 or 96 KB flash - less memory than CC2541
+		2v-3.6v supply
+		
 Motor drivers
 	tail rotor
 		DRV8837DSGR
