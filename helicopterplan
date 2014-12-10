@@ -25,7 +25,20 @@ Requirements
 TODO
 	more detailed requirements
 	component selection
-	
+		battery management
+		voltage regulation
+			analog
+			digital
+		*radio
+		*microcontroller
+			CC2541 bluetooth and 8051 SoC
+		*sensor
+			MPU-9250
+		*motor driver
+			main rotor
+				AO3416 or SIA910EDJ-T1-GE3
+			tail rotor
+				DRV8837DSGR
 
 Power management
 	Regulated 2.8v power
@@ -44,6 +57,7 @@ Power management
 			Make battery removable and charge outside helicopter
 		*1.8 amp current draw average more current draw peak
 		gas gauge if easy
+			not easy - motor current draw too great
 		Current limiting?
 			high peak current draw from motors may cause issues
 		report to microcontroller
