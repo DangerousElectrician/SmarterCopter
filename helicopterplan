@@ -24,11 +24,14 @@ Requirements
 
 TODO
 	more detailed requirements
+	soft power switch
+
+quick reference
 	component selection
 		battery management
-		voltage regulation
-			analog
-			digital
+		*voltage regulation
+			digital and analog supply separate
+			TPS79301
 		*radio
 		*microcontroller
 			CC2541 bluetooth and 8051 SoC
@@ -44,12 +47,25 @@ Power management
 	Regulated 2.8v power
 		Lipo battery is as high as 4.3 and low as 3.0 loaded
 		LDO or switcher?
-		MPU-9250
-			2.4-3.6v
-			3.7mA maybe
-		cc2541
-			2-3.6v
-			>20mA maybe
+			LDO is enough, less space required than switcher
+			Low dropout <0.2v
+		Devices to power
+			MPU-9250
+				2.4-3.6v
+				3.7mA maybe
+			cc2541
+				2-3.6v
+				>20mA maybe
+		lp2980
+			2.5-16v input
+			adj >1.23v
+			50 mA
+			0.12 mV dropout @ 50 mA
+		*TPS79301 - same package size as lp2980 with more current output
+			2.7-5.5v
+			adj >1.22v
+			200 mA
+			0.12 mV dropout @ 200 mA
 	battery management
 		Requirements
 			Must keep battery happy
@@ -64,13 +80,13 @@ Power management
 		*1.8 amp current draw average more current draw peak
 		gas gauge if easy
 			not easy - motor current draw too great
-		Current limiting?
+		Current limiting? no
 			high peak current draw from motors may cause issues
 		report to microcontroller
 			i2c
 			power good
 			analog voltage
-		maybe just wire battery voltage to microcontroller analog in
+		*maybe just wire battery voltage to microcontroller analog in
 
 Sensing
 	*9-dof Invensense gyro/accel/compass/ MPU-9250
