@@ -1,3 +1,5 @@
+http://e2e.ti.com/group/universityprogram/w/contests/2114.texas-instruments-analog-design-contest
+
 All design ideas must incorporate the use three different TI devices, integrated circuits (“ICs”) and a TI processor. Analog ICs must come from the following categories: 
 (i) data converters; 
 (ii) amplifiers; 
@@ -10,6 +12,20 @@ All design ideas must incorporate the use three different TI devices, integrated
 (ix) comparators. All TI processors are accepted. Other TI devices may be incorporated into the design, but only those integrated circuits in the categories above will be counted toward the IC Requirements.
 
 Low cost main board replacement for syma 107g helicopter
+this is a planning sheet
+
+Requirements
+	radio communication
+	able to drive both >1A main rotor motors
+	able to drive tail rotor motor <1A
+	IMU
+	Voltage regulation for control logic
+	basic battery management
+
+TODO
+	more detailed requirements
+	component selection
+	
 
 Power management
 	Regulated 2.8v power
@@ -36,14 +52,17 @@ Power management
 			analog voltage
 
 Sensing
-	9-dof Invensense gyro/accel/compass/ MPU-9250 MPU-6050
+	*9-dof Invensense gyro/accel/compass/ MPU-9250
 		16 bit adc
 		gyro ranges: 250,500,1000,2000 deg/s
 		accel ranges: 2,4,8,16 g
 		mag ranges: 14 bit (0.6µT/LSB) or 16 bit (15µT/LSB) 
 		has proprietary digital motion processor
 		can perform basic 6-axis sensor fusion
-		2..4v-3.6v
+		2.4v-3.6v
+		24 QFN
+		3mmx3mm
+		breakout board costs less than chip in one off
 	LSM330 6-dof
 		gyro: 250,500,2000 deg/s
 		acc: 2,4,6,8,16 g
@@ -53,6 +72,9 @@ Sensing
 		mag: 2,4,6,8,12 gauss
 		2.4v-3.6v
 		no center pad
+		24 LGA
+		4mmx4mm
+		slightly cheaper than MPU-9250
 	MS5611 barometer get from newark
 
 Communication
@@ -108,7 +130,7 @@ Processor
 		
 Motor drivers
 	tail rotor
-		DRV8837DSGR
+		*DRV8837DSGR
 			single full h bridge
 			8-wfdfn
 		BD621
@@ -116,10 +138,11 @@ Motor drivers
 		mosfet
 			pmv31xn
 			bsh108
+			*AO3416
 		mosfet array to save space
-			SIA910EDJ-T1-GE3
+			*SIA910EDJ-T1-GE3
 				feels weird, seems too small for power
-
+		get both single mosfets and mosfet array, they are cheap enough
 
 
 
