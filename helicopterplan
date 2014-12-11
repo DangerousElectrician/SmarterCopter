@@ -136,7 +136,9 @@ Processor
 		*i2c	2
 		*motpwm	4
 		uart	2
-		*6 gpio minimum
+		button	1
+		power on 1
+		*8 gpio minimum
 	CC3200
 		simplelink wifi
 		9mmx9mm - too big to fit on copter mainboard, can be hung outside though
