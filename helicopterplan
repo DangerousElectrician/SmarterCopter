@@ -40,6 +40,7 @@ quick reference
 		*motor driver
 			main rotor
 				AO3416 or SIA910EDJ-T1-GE3
+				bat54a or bat54c
 			tail rotor
 				DRV8837DSGR
 
@@ -155,6 +156,7 @@ Processor
 		has i2c peripheral
 		128 or 256 KB flash
 		2v-3.6v supply
+		capable of over the air firmware update?
 	CC2530
 		zigbee
 		6mmx6mm QFN40
@@ -181,6 +183,10 @@ Motor drivers
 		mosfet array to save space
 			*SIA910EDJ-T1-GE3
 				feels weird, seems too small for power
+		flyback diode 
+			bat54
+			bat54c
+				two diodes in one package
 		get both single mosfets and mosfet array, they are cheap enough
 
 
