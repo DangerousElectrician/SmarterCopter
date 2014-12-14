@@ -33,7 +33,7 @@ quick reference
 		battery management
 		*voltage regulation
 			digital and analog supply separate
-			TPS79301
+			TPS73001
 		*radio
 		*microcontroller
 			CC2541 bluetooth and 8051 SoC
@@ -49,6 +49,7 @@ quick reference
 Power management
 	Regulated 2.8v power
 		Lipo battery is as high as 4.3 and low as 3.0 loaded
+		very ripply because of brushed motor and PWM
 		LDO or switcher?
 			LDO is enough, less space required than switcher
 			Low dropout <0.2v
@@ -64,11 +65,13 @@ Power management
 			adj >1.23v
 			50 mA
 			0.12 mV dropout @ 50 mA
-		*TPS79301 - same package size as lp2980 with more current output
+		TPS79301 - same package size as lp2980 with more current output
 			2.7-5.5v
 			adj >1.22v
 			200 mA
 			0.12 mV dropout @ 200 mA
+		tps73001
+			pretty much the same as TPS37901 but is a few cents cheaper and has fast transient response on the feature list
 	battery management
 		Requirements
 			Must keep battery happy
