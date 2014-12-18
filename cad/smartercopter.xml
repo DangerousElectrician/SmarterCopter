@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/h/projects/heli/cad/smartercopter.sch</source>
-    <date>Wed 17 Dec 2014 04:37:41 PM CST</date>
+    <date>Wed 17 Dec 2014 11:03:32 PM CST</date>
     <tool>Eeschema (2014-12-03 BZR 5311)-product</tool>
   </design>
   <components>
@@ -44,6 +44,9 @@
     </comp>
     <comp ref="C10">
       <value>12pF</value>
+      <fields>
+        <field name="MPN">02013A120JAT2A</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548CD39E</tstamp>
@@ -56,6 +59,9 @@
     </comp>
     <comp ref="C2">
       <value>100nF</value>
+      <fields>
+        <field name="MPN">LMK105BJ104KV-F</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548D1805</tstamp>
@@ -157,7 +163,7 @@
       <tstamp>54915854</tstamp>
     </comp>
     <comp ref="P1">
-      <value>programming</value>
+      <value>CONN_5</value>
       <libsource lib="conn" part="CONN_01X05"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5491875F</tstamp>

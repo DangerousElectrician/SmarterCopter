@@ -1,13 +1,13 @@
-Reference, Value, Footprint, Datasheet
+Reference, Value, Footprint, Datasheet, MPN
 U1,CC2541,,
 C8,1uF,,
 C9,1nF,,
 R3,2k7,,
 R6,56k,,
 C11,12pF,,
-C10,12pF,,
+C10,12pF,,,02013A120JAT2A
 C1,1uF,,
-C2,100nF,,
+C2,100nF,,,LMK105BJ104KV-F
 C3,100nF,,
 C4,100nF,,
 C5,100nF,,
@@ -24,7 +24,7 @@ R7,0,,
 R1,1K,,
 D1,BI_LED,,
 R2,1K,,
-P1,programming,,
+P1,CONN_5,,
 U2,MPU-9250,,
 C16,10nF,,
 C15,100nF,,
