@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/h/projects/heli/cad/smartercopter.sch</source>
-    <date>Wed 17 Dec 2014 11:03:32 PM CST</date>
+    <date>Thu 18 Dec 2014 12:55:26 PM CST</date>
     <tool>Eeschema (2014-12-03 BZR 5311)-product</tool>
   </design>
   <components>
@@ -20,18 +20,27 @@
     </comp>
     <comp ref="C9">
       <value>1nF</value>
+      <fields>
+        <field name="MPN">GRM155R71H102KA01D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548CC96E</tstamp>
     </comp>
     <comp ref="R3">
       <value>2k7</value>
+      <fields>
+        <field name="MPN">RMCF0402JT2K70</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548CCA9E</tstamp>
     </comp>
     <comp ref="R6">
       <value>56k</value>
+      <fields>
+        <field name="MPN">MCR01MRTF5602</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548CCFA8</tstamp>
@@ -53,6 +62,9 @@
     </comp>
     <comp ref="C1">
       <value>1uF</value>
+      <fields>
+        <field name="MPN">GRM155R60J105KE19D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548D168D</tstamp>
@@ -92,6 +104,9 @@
     </comp>
     <comp ref="C7">
       <value>220pF</value>
+      <fields>
+        <field name="MPN">CC0402KRX7R9BB221</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548D1948</tstamp>
@@ -110,18 +125,27 @@
     </comp>
     <comp ref="X1">
       <value>32Mhz</value>
+      <fields>
+        <field name="MPN">FA-128 32MHz 10pF 10PPM</field>
+      </fields>
       <libsource lib="misc" part="CRYSTAL_SMD_2GND"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54948988</tstamp>
     </comp>
     <comp ref="FL1">
       <value>2450BM15A0002</value>
+      <fields>
+        <field name="MPN">2450BM15A0002</field>
+      </fields>
       <libsource lib="misc" part="2450BM15A0002"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54954D1C</tstamp>
     </comp>
     <comp ref="A1">
       <value>2450AT42A100</value>
+      <fields>
+        <field name="MPN">2450AT42A100</field>
+      </fields>
       <libsource lib="misc" part="2450AT42A100"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54954E38</tstamp>
@@ -146,6 +170,9 @@
     </comp>
     <comp ref="R1">
       <value>1K</value>
+      <fields>
+        <field name="MPN">1-1622826-8</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5491496C</tstamp>
@@ -176,6 +203,9 @@
     </comp>
     <comp ref="C16">
       <value>10nF</value>
+      <fields>
+        <field name="MPN">GRM155R71E103KA01D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/sensors/" tstamps="/548C976B/"/>
       <tstamp>548D972B</tstamp>
@@ -212,6 +242,9 @@
     </comp>
     <comp ref="C26">
       <value>4.7uF</value>
+      <fields>
+        <field name="MPN">CL10B475KQ8NQNC</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548E0BCE</tstamp>
@@ -224,24 +257,36 @@
     </comp>
     <comp ref="R14">
       <value>0</value>
+      <fields>
+        <field name="MPN">RC1005J000CS</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548E3182</tstamp>
     </comp>
     <comp ref="R16">
       <value>39k</value>
+      <fields>
+        <field name="MPN">RC1005J393CS</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548E3B5C</tstamp>
     </comp>
     <comp ref="R17">
       <value>30k</value>
+      <fields>
+        <field name="MPN">RC1005J303CS</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548E3BAD</tstamp>
     </comp>
     <comp ref="C24">
       <value>22pF</value>
+      <fields>
+        <field name="MPN">CL05C220JB5NNNC</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548E476C</tstamp>
@@ -296,6 +341,9 @@
     </comp>
     <comp ref="R11">
       <value>10</value>
+      <fields>
+        <field name="MPN">MCR01MRTF10R0</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548F0D05</tstamp>
@@ -320,6 +368,9 @@
     </comp>
     <comp ref="R10">
       <value>100k</value>
+      <fields>
+        <field name="MPN">MCR01MRTF1003</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548FBD41</tstamp>
@@ -332,6 +383,9 @@
     </comp>
     <comp ref="R8">
       <value>2k2</value>
+      <fields>
+        <field name="MPN">RMCF0402JT2K20</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548FCD4A</tstamp>
@@ -344,18 +398,27 @@
     </comp>
     <comp ref="R9">
       <value>20k</value>
+      <fields>
+        <field name="MPN">MCR01MRTF2002</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>5490905D</tstamp>
     </comp>
     <comp ref="R13">
       <value>62k</value>
+      <fields>
+        <field name="MPN">MCR01MRTJ623</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>5490C83D</tstamp>
     </comp>
     <comp ref="R12">
       <value>36k</value>
+      <fields>
+        <field name="MPN">MCR01MRTF3602</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>5490C8BE</tstamp>
@@ -380,6 +443,9 @@
     </comp>
     <comp ref="R20">
       <value>100</value>
+      <fields>
+        <field name="MPN">MCR01MRTF1000</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/motor/" tstamps="/54912DA9/"/>
       <tstamp>54913701</tstamp>
@@ -497,6 +563,22 @@
         <pin num="4" name="BP2" type="input"/>
         <pin num="5" name="GND" type="power_in"/>
         <pin num="6" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc" part="BAT54C">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="misc" part="CRYSTAL_SMD_2GND">
@@ -712,22 +794,6 @@
       <pins>
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="K" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="misc" part="BAT54C">
-      <description>Diode schottky</description>
-      <footprints>
-        <fp>D?</fp>
-        <fp>S*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">BAT54C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
   </libparts>
