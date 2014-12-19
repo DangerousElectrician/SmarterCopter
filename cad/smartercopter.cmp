@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-03 BZR 5311)-product   date = Thu 18 Dec 2014 08:53:34 PM CST
+Cmp-Mod V01 Created by Cvpcb (2014-12-03 BZR 5311)-product   date = Thu 18 Dec 2014 10:20:52 PM CST
 
 BeginCmp
 TimeStamp = /54954E38;
@@ -235,14 +235,14 @@ BeginCmp
 TimeStamp = /548DF87F/5493C1EE;
 Reference = D3;
 ValeurCmp = BAT54C;
-IdModule  = ;
+IdModule  = Diodes_SMD:Diode_SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /54912DA9/54918821;
 Reference = D5;
 ValeurCmp = BAT54C;
-IdModule  = ;
+IdModule  = Diodes_SMD:Diode_SOT23;
 EndCmp
 
 BeginCmp
