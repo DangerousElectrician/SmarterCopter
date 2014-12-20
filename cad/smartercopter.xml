@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/h/projects/heli/cad/smartercopter.sch</source>
-    <date>Thu 18 Dec 2014 05:05:54 PM CST</date>
+    <date>Sat 20 Dec 2014 02:51:32 PM CST</date>
     <tool>Eeschema (2014-12-03 BZR 5311)-product</tool>
   </design>
   <components>
@@ -11,18 +11,20 @@
       <fields>
         <field name="MPN">CC2541F256RHAR</field>
       </fields>
-      <libsource lib="cc2541" part="CC2541"/>
+      <libsource lib="misc" part="CC2541"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548BD357</tstamp>
     </comp>
     <comp ref="C8">
       <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548CB6FE</tstamp>
     </comp>
     <comp ref="C9">
       <value>1nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="MPN">GRM155R71H102KA01D</field>
       </fields>
@@ -50,12 +52,14 @@
     </comp>
     <comp ref="C11">
       <value>12pF</value>
+      <footprint>Capacitors_SMD:C_0201</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548CD35A</tstamp>
     </comp>
     <comp ref="C10">
       <value>12pF</value>
+      <footprint>Capacitors_SMD:C_0201</footprint>
       <fields>
         <field name="MPN">02013A120JAT2A</field>
       </fields>
@@ -65,6 +69,7 @@
     </comp>
     <comp ref="C1">
       <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="MPN">GRM155R60J105KE19D</field>
       </fields>
@@ -74,6 +79,7 @@
     </comp>
     <comp ref="C2">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="MPN">LMK105BJ104KV-F</field>
       </fields>
@@ -83,30 +89,35 @@
     </comp>
     <comp ref="C3">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548D182C</tstamp>
     </comp>
     <comp ref="C4">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548D1892</tstamp>
     </comp>
     <comp ref="C5">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548D18DD</tstamp>
     </comp>
     <comp ref="C6">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>548D1913</tstamp>
     </comp>
     <comp ref="C7">
       <value>220pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="MPN">CC0402KRX7R9BB221</field>
       </fields>
@@ -155,12 +166,14 @@
     </comp>
     <comp ref="C12">
       <value>DNM</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54959458</tstamp>
     </comp>
     <comp ref="C13">
       <value>DNM</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>549594ED</tstamp>
@@ -212,6 +225,7 @@
     </comp>
     <comp ref="C16">
       <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="MPN">GRM155R71E103KA01D</field>
       </fields>
@@ -221,18 +235,21 @@
     </comp>
     <comp ref="C15">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/sensors/" tstamps="/548C976B/"/>
       <tstamp>548D97BB</tstamp>
     </comp>
     <comp ref="C14">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/sensors/" tstamps="/548C976B/"/>
       <tstamp>548D9E9A</tstamp>
     </comp>
     <comp ref="C20">
       <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548DFC7F</tstamp>
@@ -245,12 +262,14 @@
     </comp>
     <comp ref="C22">
       <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548E039E</tstamp>
     </comp>
     <comp ref="C26">
       <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
         <field name="MPN">CL10B475KQ8NQNC</field>
       </fields>
@@ -287,6 +306,7 @@
     </comp>
     <comp ref="C24">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="MPN">CL05C220JB5NNNC</field>
       </fields>
@@ -296,18 +316,21 @@
     </comp>
     <comp ref="C21">
       <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548E9E6E</tstamp>
     </comp>
     <comp ref="C23">
       <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548E9E82</tstamp>
     </comp>
     <comp ref="C27">
       <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548E9E8E</tstamp>
@@ -332,6 +355,7 @@
     </comp>
     <comp ref="C25">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548E9ECB</tstamp>
@@ -347,12 +371,14 @@
     </comp>
     <comp ref="C17">
       <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548F108E</tstamp>
     </comp>
     <comp ref="C18">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548F10FD</tstamp>
@@ -395,6 +421,7 @@
     </comp>
     <comp ref="C19">
       <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>54900A66</tstamp>
@@ -428,6 +455,7 @@
     </comp>
     <comp ref="D3">
       <value>BAT54C</value>
+      <footprint>Diodes_SMD:Diode_SOT23</footprint>
       <libsource lib="misc" part="BAT54C"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>5493C1EE</tstamp>
@@ -488,6 +516,7 @@
     </comp>
     <comp ref="D5">
       <value>BAT54C</value>
+      <footprint>Diodes_SMD:Diode_SOT23</footprint>
       <fields>
         <field name="MPN">BAT54C</field>
       </fields>
@@ -515,12 +544,14 @@
     </comp>
     <comp ref="C28">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/motor/" tstamps="/54912DA9/"/>
       <tstamp>5491AD8A</tstamp>
     </comp>
     <comp ref="C29">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <libsource lib="device" part="C"/>
       <sheetpath names="/motor/" tstamps="/54912DA9/"/>
       <tstamp>5491B8A2</tstamp>
@@ -608,6 +639,67 @@
         <pin num="3" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="misc" part="BI_COLOR_LED">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BI_COLOR_LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+        <pin num="4" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="misc" part="CC2541">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CC2541</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SCL" type="BiDi"/>
+        <pin num="3" name="SDA" type="BiDi"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="P1_5" type="BiDi"/>
+        <pin num="6" name="P1_4" type="BiDi"/>
+        <pin num="7" name="P1_3" type="BiDi"/>
+        <pin num="8" name="P1_2" type="BiDi"/>
+        <pin num="9" name="P1_1" type="BiDi"/>
+        <pin num="10" name="DVDD2" type="power_in"/>
+        <pin num="11" name="P1_0" type="BiDi"/>
+        <pin num="12" name="P0_7" type="BiDi"/>
+        <pin num="13" name="P0_6" type="BiDi"/>
+        <pin num="14" name="P0_5" type="BiDi"/>
+        <pin num="15" name="P0_4" type="BiDi"/>
+        <pin num="16" name="P0_3" type="BiDi"/>
+        <pin num="17" name="P0_2" type="BiDi"/>
+        <pin num="18" name="P0_1" type="BiDi"/>
+        <pin num="19" name="P0_0" type="BiDi"/>
+        <pin num="20" name="RESET_N" type="input"/>
+        <pin num="21" name="AVDD5" type="power_in"/>
+        <pin num="22" name="XOSC_Q1" type="BiDi"/>
+        <pin num="23" name="XOSC_Q2" type="BiDi"/>
+        <pin num="24" name="AVDD3" type="power_in"/>
+        <pin num="25" name="RF_P" type="BiDi"/>
+        <pin num="26" name="RF_N" type="BiDi"/>
+        <pin num="27" name="AVDD2" type="power_in"/>
+        <pin num="28" name="AVDD1" type="power_in"/>
+        <pin num="29" name="AVDD4" type="power_in"/>
+        <pin num="30" name="RBIAS" type="BiDi"/>
+        <pin num="31" name="AVDD6" type="power_in"/>
+        <pin num="32" name="P2_4/OSC32K_Q1" type="BiDi"/>
+        <pin num="33" name="P2_3/OSC32K_Q2" type="BiDi"/>
+        <pin num="34" name="P2_2/DC" type="BiDi"/>
+        <pin num="35" name="P2_1/DD" type="BiDi"/>
+        <pin num="36" name="P2_0" type="BiDi"/>
+        <pin num="37" name="P1_7" type="BiDi"/>
+        <pin num="38" name="P1_6" type="BiDi"/>
+        <pin num="39" name="DVDD1" type="power_in"/>
+        <pin num="40" name="DCOUPL" type="passive"/>
+        <pin num="PAD" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="misc" part="CRYSTAL_SMD_2GND">
       <fields>
         <field name="Reference">X</field>
@@ -691,55 +783,6 @@
         <pin num="6" name="OUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="cc2541" part="CC2541">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">CC2541</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="SCL" type="BiDi"/>
-        <pin num="3" name="SDA" type="BiDi"/>
-        <pin num="4" name="NC" type="NotConnected"/>
-        <pin num="5" name="P1_5" type="BiDi"/>
-        <pin num="6" name="P1_4" type="BiDi"/>
-        <pin num="7" name="P1_3" type="BiDi"/>
-        <pin num="8" name="P1_2" type="BiDi"/>
-        <pin num="9" name="P1_1" type="BiDi"/>
-        <pin num="10" name="DVDD2" type="power_in"/>
-        <pin num="11" name="P1_0" type="BiDi"/>
-        <pin num="12" name="P0_7" type="BiDi"/>
-        <pin num="13" name="P0_6" type="BiDi"/>
-        <pin num="14" name="P0_5" type="BiDi"/>
-        <pin num="15" name="P0_4" type="BiDi"/>
-        <pin num="16" name="P0_3" type="BiDi"/>
-        <pin num="17" name="P0_2" type="BiDi"/>
-        <pin num="18" name="P0_1" type="BiDi"/>
-        <pin num="19" name="P0_0" type="BiDi"/>
-        <pin num="20" name="RESET_N" type="input"/>
-        <pin num="21" name="AVDD5" type="power_in"/>
-        <pin num="22" name="XOSC_Q1" type="BiDi"/>
-        <pin num="23" name="XOSC_Q2" type="BiDi"/>
-        <pin num="24" name="AVDD3" type="power_in"/>
-        <pin num="25" name="RF_P" type="BiDi"/>
-        <pin num="26" name="RF_N" type="BiDi"/>
-        <pin num="27" name="AVDD2" type="power_in"/>
-        <pin num="28" name="AVDD1" type="power_in"/>
-        <pin num="29" name="AVDD4" type="power_in"/>
-        <pin num="30" name="RBIAS" type="BiDi"/>
-        <pin num="31" name="AVDD6" type="power_in"/>
-        <pin num="32" name="P2_4/OSC32K_Q1" type="BiDi"/>
-        <pin num="33" name="P2_3/OSC32K_Q2" type="BiDi"/>
-        <pin num="34" name="P2_2/DC" type="BiDi"/>
-        <pin num="35" name="P2_1/DD" type="BiDi"/>
-        <pin num="36" name="P2_0" type="BiDi"/>
-        <pin num="37" name="P1_7" type="BiDi"/>
-        <pin num="38" name="P1_6" type="BiDi"/>
-        <pin num="39" name="DVDD1" type="power_in"/>
-        <pin num="40" name="DCOUPL" type="passive"/>
-        <pin num="PAD" name="GND" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="device" part="BATTERY">
       <fields>
         <field name="Reference">BT</field>
@@ -811,31 +854,16 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="misc" part="BI_COLOR_LED">
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">BI_COLOR_LED</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-        <pin num="3" name="A" type="passive"/>
-        <pin num="4" name="K" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="misc">
-      <uri>/home/h/projects/kicad/libraries/hlibrary/misc.lib</uri>
-    </library>
-    <library logical="cc2541">
-      <uri>/home/h/projects/kicad/libraries/hlibrary/cc2541.lib</uri>
-    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="misc">
+      <uri>/home/h/projects/kicad/libraries/hlibrary/misc.lib</uri>
     </library>
   </libraries>
   <nets>
