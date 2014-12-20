@@ -1,4 +1,4 @@
-update=Tue 16 Dec 2014 08:52:30 PM CST
+update=Sat 20 Dec 2014 02:40:01 PM CST
 version=1
 last_client=kicad
 [cvpcb]
@@ -27,6 +27,19 @@ BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
 [eeschema]
 version=1
 LibDir=../../kicad/libraries/hlibrary
@@ -61,20 +74,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=misc
-LibName31=MPU-9250
-LibName32=p8x32a-lqfp
-LibName33=cc2541
-LibName34=device
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
+LibName31=device
