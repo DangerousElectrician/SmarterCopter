@@ -29,9 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:misc
-LIBS:MPU-9250
-LIBS:p8x32a-lqfp
-LIBS:cc2541
 LIBS:device
 LIBS:smartercopter-cache
 EELAYER 25 0
