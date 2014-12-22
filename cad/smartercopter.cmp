@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-03 BZR 5311)-product   date = Sun 21 Dec 2014 11:41:14 PM CST
+Cmp-Mod V01 Created by Cvpcb (2014-12-03 BZR 5311)-product   date = Mon 22 Dec 2014 01:30:54 PM CST
 
 BeginCmp
 TimeStamp = /54954E38;
@@ -11,7 +11,7 @@ BeginCmp
 TimeStamp = /548DF87F/548DFD04;
 Reference = BT1;
 ValeurCmp = BATTERY;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -256,28 +256,28 @@ BeginCmp
 TimeStamp = /5491875F;
 Reference = P1;
 ValeurCmp = CONN_5;
-IdModule  = ;
+IdModule  = Pin_Arrays:pin_array_1x05;
 EndCmp
 
 BeginCmp
 TimeStamp = /54912DA9/54913051;
 Reference = P2;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /54912DA9/54914313;
 Reference = P3;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /54912DA9/5491F782;
 Reference = P4;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp

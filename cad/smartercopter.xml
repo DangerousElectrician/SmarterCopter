@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/h/projects/heli/cad/smartercopter.sch</source>
-    <date>Sun 21 Dec 2014 11:45:07 PM CST</date>
+    <date>Mon 22 Dec 2014 01:31:13 PM CST</date>
     <tool>Eeschema (2014-12-03 BZR 5311)-product</tool>
   </design>
   <components>
@@ -212,6 +212,7 @@
     </comp>
     <comp ref="P1">
       <value>CONN_5</value>
+      <footprint>Pin_Arrays:pin_array_1x05</footprint>
       <libsource lib="conn" part="CONN_01X05"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5491875F</tstamp>
@@ -269,6 +270,7 @@
     </comp>
     <comp ref="BT1">
       <value>BATTERY</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
       <libsource lib="device" part="BATTERY"/>
       <sheetpath names="/power/" tstamps="/548DF87F/"/>
       <tstamp>548DFD04</tstamp>
@@ -506,6 +508,7 @@
     </comp>
     <comp ref="P2">
       <value>CONN_2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/motor/" tstamps="/54912DA9/"/>
       <tstamp>54913051</tstamp>
@@ -529,6 +532,7 @@
     </comp>
     <comp ref="P3">
       <value>CONN_2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/motor/" tstamps="/54912DA9/"/>
       <tstamp>54914313</tstamp>
@@ -593,6 +597,7 @@
     </comp>
     <comp ref="P4">
       <value>CONN_2</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/motor/" tstamps="/54912DA9/"/>
       <tstamp>5491F782</tstamp>
@@ -906,11 +911,11 @@
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="misc">
       <uri>/home/h/projects/kicad/libraries/hlibrary/misc.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>

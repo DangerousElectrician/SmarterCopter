@@ -24,8 +24,6 @@ Requirements
 
 TODO
 	more detailed requirements
-	soft power switch
-		http://electronics.stackexchange.com/questions/31794/implement-microcontroller-power-switch-and-re-use-the-button-for-other-features?lq=1
 
 
 quick reference
@@ -45,6 +43,12 @@ quick reference
 				bat54a or bat54c
 			tail rotor
 				DRV8837DSGR
+		battery
+			see line 75
+		connectors
+			JST-SH
+				1A maximum
+				1mm pitch
 
 Power management
 	Regulated 2.8v power
@@ -81,6 +85,7 @@ Power management
 			http://www.hobbyking.com/hobbyking/store/uh_viewItem.asp?idProduct=11893
 				Really cheap
 			Does this battery use a JST-XH or Parkzone Pico connector?
+				JST-XH
 		no charging circuitry onboard
 			Make battery removable and charge outside helicopter
 		*1.8 amp current draw average more current draw peak
