@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 0 0 0 0)
+    (area 74.211422 71.857108 188.050428 142.051746)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -172,8 +172,8 @@
     (uvia_drill 0.127)
   )
 
-  (module hlib:2450AT42A100 (layer F.Cu) (tedit 549732C0) (tstamp 54987AE2)
-    (at 141.204201 143.998108)
+  (module hlib:2450AT42A100 (layer F.Cu) (tedit 549732C0) (tstamp 5498B6AB)
+    (at 153.67 111.76)
     (path /54954E38)
     (fp_text reference A1 (at 0 2.159) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -186,8 +186,8 @@
     (pad 2 smd rect (at 2.45 0) (size 1 1.8) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54987409) (tstamp 54987AEE)
-    (at 111.744045 144.170908)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54987409) (tstamp 5498B742)
+    (at 78.968185 91.072546)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /548DF87F/548DFD04)
@@ -215,7 +215,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987AFA)
-    (at 106.583798 81.086108)
+    (at 132.08 104.14)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548D168D)
@@ -244,7 +244,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987B06)
-    (at 128.093681 101.406108)
+    (at 132.08 101.6)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548D1805)
@@ -273,7 +273,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54989698)
-    (at 147.733785 101.406108)
+    (at 155.353785 74.736108)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548D182C)
@@ -302,7 +302,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987B1E)
-    (at 152.643811 101.406108)
+    (at 156.21 78.74)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548D1892)
@@ -331,7 +331,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987B2A)
-    (at 142.823759 101.406108)
+    (at 154.94 71.12)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548D18DD)
@@ -360,7 +360,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987B36)
-    (at 137.913733 101.406108)
+    (at 154.94 67.31)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548D1913)
@@ -389,7 +389,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987B42)
-    (at 118.273629 101.406108)
+    (at 87.793629 58.226108)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548D1948)
@@ -418,7 +418,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987B4E)
-    (at 101.943165 81.086108)
+    (at 72.39 38.1)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548CB6FE)
@@ -447,7 +447,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987B5A)
-    (at 97.302532 81.086108)
+    (at 101.6 33.02)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548CC96E)
@@ -476,7 +476,7 @@
   )
 
   (module Capacitors_SMD:C_0201 (layer F.Cu) (tedit 5415D524) (tstamp 54987B66)
-    (at 142.150256 122.996108)
+    (at 135.89 123.19)
     (descr "Capacitor SMD 0201, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0201")
     (path /548CD39E)
@@ -505,7 +505,7 @@
   )
 
   (module Capacitors_SMD:C_0201 (layer F.Cu) (tedit 5415D524) (tstamp 54987B72)
-    (at 146.790889 122.996108)
+    (at 140.97 124.46)
     (descr "Capacitor SMD 0201, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0201")
     (path /548CD35A)
@@ -534,7 +534,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987B7E)
-    (at 114.306458 122.996108)
+    (at 149.866458 117.916108)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /54959458)
@@ -542,7 +542,7 @@
     (fp_text reference C12 (at 0 -1.7) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value DNM (at 0 1.7) (layer F.SilkS)
+    (fp_text value DNM (at -0.006458 1.463892) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1.15 -0.6) (end 1.15 -0.6) (layer F.CrtYd) (width 0.05))
@@ -563,7 +563,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987B8A)
-    (at 109.665825 122.996108)
+    (at 145.225825 117.916108)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /549594ED)
@@ -592,7 +592,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987B96)
-    (at 123.183655 101.406108)
+    (at 92.703655 58.226108)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548C976B/548D9E9A)
@@ -621,7 +621,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987BA2)
-    (at 162.463863 101.406108)
+    (at 154.94 62.23)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548C976B/548D97BB)
@@ -650,7 +650,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987BAE)
-    (at 123.587724 122.996108)
+    (at 71.12 83.82)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548C976B/548D972B)
@@ -679,7 +679,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 54987BBA)
-    (at 98.633525 101.606108)
+    (at 68.153525 58.426108)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /548DF87F/548F108E)
@@ -708,7 +708,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987BC6)
-    (at 113.363603 101.406108)
+    (at 82.883603 58.226108)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548DF87F/548F10FD)
@@ -737,7 +737,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987BD2)
-    (at 137.509623 122.996108)
+    (at 102.87 119.38)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548DF87F/54900A66)
@@ -766,7 +766,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987BDE)
-    (at 139.068229 81.086108)
+    (at 108.588229 37.906108)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548DF87F/548DFC7F)
@@ -795,7 +795,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 54987BEA)
-    (at 93.723499 101.606108)
+    (at 63.243499 58.426108)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /548DF87F/548E9E6E)
@@ -824,7 +824,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987BF6)
-    (at 132.86899 122.996108)
+    (at 105.41 97.79)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548DF87F/548E039E)
@@ -853,7 +853,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987C02)
-    (at 128.228357 122.996108)
+    (at 78.74 71.12)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548DF87F/548E9E82)
@@ -882,7 +882,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987C0E)
-    (at 118.947091 122.996108)
+    (at 97.79 93.98)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548DF87F/548E476C)
@@ -910,8 +910,8 @@
     )
   )
 
-  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987C1A)
-    (at 151.431522 122.996108)
+  (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 5498C37A)
+    (at 116.84 76.2)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /548DF87F/548E9ECB)
@@ -940,7 +940,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 54987C26)
-    (at 88.813473 101.606108)
+    (at 109.22 93.98)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /548DF87F/548E0BCE)
@@ -969,7 +969,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 54987C32)
-    (at 83.903447 101.606108)
+    (at 53.423447 58.426108)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /548DF87F/548E9E8E)
@@ -998,7 +998,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987C3E)
-    (at 133.003707 101.406108)
+    (at 102.523707 58.226108)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /54912DA9/5491AD8A)
@@ -1027,7 +1027,7 @@
   )
 
   (module Capacitors_SMD:C_0402 (layer F.Cu) (tedit 5415D599) (tstamp 54987C4A)
-    (at 157.553837 101.406108)
+    (at 130.81 58.42)
     (descr "Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0402")
     (path /54912DA9/5491B8A2)
@@ -1055,8 +1055,8 @@
     )
   )
 
-  (module hlib:APTB1612ESGC-F01 (layer F.Cu) (tedit 54973EBA) (tstamp 54987C54)
-    (at 136.294175 143.998108)
+  (module hlib:APTB1612ESGC-F01 (layer F.Cu) (tedit 54973EBA) (tstamp 5498B663)
+    (at 128.27 116.84)
     (path /54952C6A)
     (fp_text reference D1 (at 0 2.159) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1076,8 +1076,8 @@
       (net 5 DGND))
   )
 
-  (module hlib:SOD-323 (layer F.Cu) (tedit 54965A69) (tstamp 54987C5C)
-    (at 82.283889 143.236108)
+  (module hlib:SOD-323 (layer F.Cu) (tedit 54965A69) (tstamp 5498B71B)
+    (at 96.52 123.19)
     (path /548DF87F/548FCC83)
     (fp_text reference D2 (at 0 2.54) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1093,8 +1093,8 @@
       (net 24 /power/BUTTON))
   )
 
-  (module Diodes_SMD:Diode_SOT23 (layer F.Cu) (tedit 54987409) (tstamp 54987C68)
-    (at 116.654071 146.025108)
+  (module Diodes_SMD:Diode_SOT23 (layer F.Cu) (tedit 54987409) (tstamp 5498B6D7)
+    (at 95.25 115.57)
     (descr "SOT23, Standard, Diode,")
     (tags "SOT23, Standard, Diode,")
     (path /548DF87F/5493C1EE)
@@ -1118,8 +1118,8 @@
       (net 15 "Net-(C19-Pad1)"))
   )
 
-  (module Diodes_SMD:Diode_SOT23 (layer F.Cu) (tedit 54987409) (tstamp 54987C74)
-    (at 121.564097 146.025108)
+  (module Diodes_SMD:Diode_SOT23 (layer F.Cu) (tedit 54987409) (tstamp 5498B6B8)
+    (at 50.8 106.68)
     (descr "SOT23, Standard, Diode,")
     (tags "SOT23, Standard, Diode,")
     (path /54912DA9/54918821)
@@ -1143,8 +1143,8 @@
       (net 2 +BATT))
   )
 
-  (module hlib:2450BM15A0002 (layer F.Cu) (tedit 54972717) (tstamp 54987C85)
-    (at 152.4 142.24)
+  (module hlib:2450BM15A0002 (layer F.Cu) (tedit 54972717) (tstamp 5498B6CA)
+    (at 142.24 109.22)
     (path /54954D1C)
     (fp_text reference FL1 (at 0 4.025) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1174,7 +1174,7 @@
   )
 
   (module Pin_Arrays:pin_array_1x05 (layer F.Cu) (tedit 54987409) (tstamp 54987C92)
-    (at 181.61 134.62)
+    (at 149.86 99.06)
     (descr "Double rangee de contacts 2 x 5 pins")
     (tags CONN)
     (path /5491875F)
@@ -1205,8 +1205,8 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54987409) (tstamp 54987C9E)
-    (at 106.834019 144.170908)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54987409) (tstamp 5498B74F)
+    (at 55.667111 96.152546)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54912DA9/54913051)
@@ -1233,8 +1233,8 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54987409) (tstamp 54987CAA)
-    (at 101.923993 144.170908)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54987409) (tstamp 5498B728)
+    (at 48.876037 96.152546)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54912DA9/54914313)
@@ -1261,8 +1261,8 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54987409) (tstamp 54987CB6)
-    (at 97.013967 142.900908)
+  (module Pin_Headers:Pin_Header_Straight_1x02 (layer F.Cu) (tedit 54987409) (tstamp 5498B735)
+    (at 42.084963 96.152546)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /54912DA9/5491F782)
@@ -1289,8 +1289,8 @@
     )
   )
 
-  (module hlib:SC-70-6L (layer F.Cu) (tedit 54975840) (tstamp 54987CCD)
-    (at 126.474123 144.466108)
+  (module hlib:SC-70-6L (layer F.Cu) (tedit 54975840) (tstamp 5498B712)
+    (at 46.389259 102.797746)
     (path /54912DA9/54918CF4)
     (fp_text reference Q1 (at 0 2.75) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -1328,7 +1328,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987CD9)
-    (at 88.021266 81.186108)
+    (at 135.89 129.54)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5491496C)
@@ -1357,7 +1357,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987CE5)
-    (at 83.380633 81.186108)
+    (at 128.27 128.27)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /54915854)
@@ -1386,7 +1386,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987CF1)
-    (at 111.224431 81.186108)
+    (at 80.744431 38.006108)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548CCA9E)
@@ -1415,7 +1415,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987CFD)
-    (at 129.786963 81.186108)
+    (at 99.306963 38.006108)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /549350E6)
@@ -1444,7 +1444,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D09)
-    (at 120.505697 81.186108)
+    (at 90.025697 38.006108)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5493575D)
@@ -1473,15 +1473,15 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D15)
-    (at 134.427596 81.186108)
+    (at 139.7 105.41 180)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548CCFA8)
     (attr smd)
-    (fp_text reference R6 (at 0 -1.8) (layer F.SilkS)
+    (fp_text reference R6 (at 0 -1.8 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 56k (at 0 1.8) (layer F.SilkS)
+    (fp_text value 56k (at 0 1.8 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.95 -0.65) (end 0.95 -0.65) (layer F.CrtYd) (width 0.05))
@@ -1490,9 +1490,9 @@
     (fp_line (start 0.95 -0.65) (end 0.95 0.65) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0.25 -0.525) (end -0.25 -0.525) (layer F.SilkS) (width 0.15))
     (fp_line (start -0.25 0.525) (end 0.25 0.525) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -0.45 0) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)
+    (pad 1 smd rect (at -0.45 0 180) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)
       (net 5 DGND))
-    (pad 2 smd rect (at 0.45 0) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)
+    (pad 2 smd rect (at 0.45 0 180) (size 0.4 0.6) (layers F.Cu F.Paste F.Mask)
       (net 42 "Net-(R6-Pad2)"))
     (model Resistors_SMD/R_0402.wrl
       (at (xyz 0 0 0))
@@ -1502,7 +1502,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D21)
-    (at 92.661899 81.186108)
+    (at 147.32 113.03)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /5495957A)
@@ -1531,7 +1531,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D2D)
-    (at 115.865064 81.186108)
+    (at 101.6 123.19)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548DF87F/548FCD4A)
@@ -1539,7 +1539,7 @@
     (fp_text reference R8 (at 0 -1.8) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 2k2 (at 0 1.8) (layer F.SilkS)
+    (fp_text value 2k2 (at 0 1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -0.95 -0.65) (end 0.95 -0.65) (layer F.CrtYd) (width 0.05))
@@ -1560,7 +1560,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D39)
-    (at 125.14633 81.186108)
+    (at 99.06 128.27)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548DF87F/5490905D)
@@ -1589,7 +1589,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D45)
-    (at 160.712788 123.096108)
+    (at 105.41 124.46)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548DF87F/548FBD41)
@@ -1618,7 +1618,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D51)
-    (at 95.743926 121.826108)
+    (at 72.39 77.47)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548DF87F/548F0D05)
@@ -1647,7 +1647,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D5D)
-    (at 162.271394 81.186108)
+    (at 131.791394 38.006108)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548DF87F/5490C8BE)
@@ -1676,7 +1676,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D69)
-    (at 100.384559 121.826108)
+    (at 93.98 123.19)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548DF87F/5490C83D)
@@ -1705,7 +1705,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D75)
-    (at 157.630761 81.186108)
+    (at 104.14 102.87)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548DF87F/548E3182)
@@ -1734,7 +1734,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D81)
-    (at 143.708862 81.186108)
+    (at 95.25 90.17)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548DF87F/548E9EB5)
@@ -1763,7 +1763,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D8D)
-    (at 152.990128 81.186108)
+    (at 122.510128 38.006108)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548DF87F/548E3B5C)
@@ -1792,7 +1792,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987D99)
-    (at 91.103293 121.826108)
+    (at 102.87 90.17)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548DF87F/548E3BAD)
@@ -1821,7 +1821,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987DA5)
-    (at 105.025192 121.826108)
+    (at 74.545192 78.646108)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548DF87F/548E9EBF)
@@ -1850,7 +1850,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987DB1)
-    (at 81.822027 121.826108)
+    (at 77.47 81.28)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /548DF87F/548E9EC5)
@@ -1878,8 +1878,8 @@
     )
   )
 
-  (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987DBD)
-    (at 86.46266 121.826108)
+  (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 5498C1AD)
+    (at 106.68 116.84)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /54912DA9/54913701)
@@ -1908,7 +1908,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987DC9)
-    (at 156.072155 123.096108)
+    (at 109.22 120.65)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /54912DA9/549134A6)
@@ -1937,7 +1937,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987DD5)
-    (at 148.349495 81.186108)
+    (at 117.869495 38.006108)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /54912DA9/54914331)
@@ -1966,7 +1966,7 @@
   )
 
   (module Resistors_SMD:R_0402 (layer F.Cu) (tedit 5415CBB8) (tstamp 54987DE1)
-    (at 78.993421 101.506108)
+    (at 48.513421 58.326108)
     (descr "Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0402")
     (path /54912DA9/5491432B)
@@ -1994,8 +1994,8 @@
     )
   )
 
-  (module hlib:PTS840GMSMTRLFS (layer F.Cu) (tedit 5497AE22) (tstamp 54987DF0)
-    (at 131.384149 144.760108)
+  (module hlib:PTS840GMSMTRLFS (layer F.Cu) (tedit 5497AE22) (tstamp 5498B6E7)
+    (at 101.493555 114.521746)
     (path /548DF87F/5497A571)
     (fp_text reference SW1 (at 0 2.794) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
@@ -2020,8 +2020,8 @@
       (net 26 "Net-(D3-Pad2)"))
   )
 
-  (module SMD_Packages:LFCSP-40-1EP (layer F.Cu) (tedit 54987409) (tstamp 54987E27)
-    (at 168.91 144.78)
+  (module SMD_Packages:LFCSP-40-1EP (layer F.Cu) (tedit 54987409) (tstamp 5498B6A4)
+    (at 134.62 109.22)
     (path /548BD357)
     (attr smd)
     (fp_text reference U1 (at 0 -4.0005) (layer F.SilkS)
@@ -2129,7 +2129,7 @@
   )
 
   (module SMD_Packages:QFN-28-1EP (layer F.Cu) (tedit 54987409) (tstamp 54987E55)
-    (at 78.74 77.47)
+    (at 147.32 67.31)
     (path /548C976B/548C98CF)
     (fp_text reference U2 (at 0 -4.20116) (layer F.SilkS)
       (effects (font (size 1.00076 1.00076) (thickness 0.3048)))
@@ -2211,8 +2211,8 @@
     )
   )
 
-  (module SMD_Packages:SOT-23-6 (layer F.Cu) (tedit 54987409) (tstamp 54987E64)
-    (at 103.180845 100.551488)
+  (module SMD_Packages:SOT-23-6 (layer F.Cu) (tedit 54987409) (tstamp 5498BD30)
+    (at 99.06 99.06)
     (path /548DF87F/54944F99)
     (fp_text reference U3 (at 1.99898 0 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.0762)))
@@ -2244,8 +2244,8 @@
     )
   )
 
-  (module SMD_Packages:SOT-23-6 (layer F.Cu) (tedit 54987409) (tstamp 54987E73)
-    (at 108.090871 100.551488)
+  (module SMD_Packages:SOT-23-6 (layer F.Cu) (tedit 54987409) (tstamp 5498BCAE)
+    (at 74.93 74.93)
     (path /548DF87F/5494586A)
     (fp_text reference U4 (at 1.99898 0 90) (layer F.SilkS)
       (effects (font (size 0.762 0.762) (thickness 0.0762)))
@@ -2277,8 +2277,8 @@
     )
   )
 
-  (module SMD_Packages:WSON-8-1EP (layer F.Cu) (tedit 54987409) (tstamp 54987E85)
-    (at 87.268915 142.829442)
+  (module SMD_Packages:WSON-8-1EP (layer F.Cu) (tedit 54987409) (tstamp 5498B6FA)
+    (at 53.255333 102.43108)
     (path /54912DA9/5491AA18)
     (solder_mask_margin 0.07)
     (solder_paste_margin -0.01)
@@ -2314,8 +2314,8 @@
       (net 3 GND))
   )
 
-  (module hlib:4-SMD (layer F.Cu) (tedit 54971C91) (tstamp 54987E8D)
-    (at 92.103941 142.996108)
+  (module hlib:4-SMD (layer F.Cu) (tedit 54971C91) (tstamp 5498B66C)
+    (at 139.7 118.11)
     (path /54948988)
     (fp_text reference X1 (at 0 -2.3) (layer F.SilkS)
       (effects (font (size 1.5 1.5) (thickness 0.15)))
