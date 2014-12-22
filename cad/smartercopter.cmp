@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-03 BZR 5311)-product   date = Sun 21 Dec 2014 12:15:28 AM CST
+Cmp-Mod V01 Created by Cvpcb (2014-12-03 BZR 5311)-product   date = Sun 21 Dec 2014 11:41:14 PM CST
 
 BeginCmp
 TimeStamp = /54954E38;
 Reference = A1;
 ValeurCmp = 2450AT42A100;
-IdModule  = ;
+IdModule  = hlib:2450AT42A100;
 EndCmp
 
 BeginCmp
@@ -221,7 +221,7 @@ BeginCmp
 TimeStamp = /54952C6A;
 Reference = D1;
 ValeurCmp = BI_COLOR_LED;
-IdModule  = ;
+IdModule  = hlib:APTB1612ESGC-F01;
 EndCmp
 
 BeginCmp
@@ -249,7 +249,7 @@ BeginCmp
 TimeStamp = /54954D1C;
 Reference = FL1;
 ValeurCmp = 2450BM15A0002;
-IdModule  = ;
+IdModule  = hlib:2450BM15A0002;
 EndCmp
 
 BeginCmp
@@ -284,7 +284,7 @@ BeginCmp
 TimeStamp = /54912DA9/54918CF4;
 Reference = Q1;
 ValeurCmp = SiA910EDJ;
-IdModule  = ;
+IdModule  = hlib:SC-70-6L;
 EndCmp
 
 BeginCmp
@@ -449,52 +449,52 @@ IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /548DF87F/548F8D37;
+TimeStamp = /548DF87F/5497A571;
 Reference = SW1;
-ValeurCmp = SW_PUSH;
-IdModule  = ;
+ValeurCmp = SW_PUSH_4;
+IdModule  = hlib:PTS840GMSMTRLFS;
 EndCmp
 
 BeginCmp
 TimeStamp = /548BD357;
 Reference = U1;
 ValeurCmp = CC2541;
-IdModule  = ;
+IdModule  = SMD_Packages:LFCSP-40-1EP;
 EndCmp
 
 BeginCmp
 TimeStamp = /548C976B/548C98CF;
 Reference = U2;
 ValeurCmp = MPU-9250;
-IdModule  = ;
+IdModule  = SMD_Packages:QFN-28-1EP;
 EndCmp
 
 BeginCmp
 TimeStamp = /548DF87F/54944F99;
 Reference = U3;
 ValeurCmp = TPS73001;
-IdModule  = ;
+IdModule  = SMD_Packages:SOT-23-6;
 EndCmp
 
 BeginCmp
 TimeStamp = /548DF87F/5494586A;
 Reference = U4;
 ValeurCmp = TPS73001;
-IdModule  = ;
+IdModule  = SMD_Packages:SOT-23-6;
 EndCmp
 
 BeginCmp
 TimeStamp = /54912DA9/5491AA18;
 Reference = U5;
 ValeurCmp = DRV8837;
-IdModule  = ;
+IdModule  = SMD_Packages:WSON-8-1EP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54948988;
 Reference = X1;
 ValeurCmp = 32Mhz;
-IdModule  = ;
+IdModule  = hlib:4-SMD;
 EndCmp
 
 EndListe
