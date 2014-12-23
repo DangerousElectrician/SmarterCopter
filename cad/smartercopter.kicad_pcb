@@ -5,7 +5,7 @@
     (no_connects 170)
     (area 0 0 0 0)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 4)
     (tracks 0)
     (zones 0)
     (modules 71)
@@ -2403,5 +2403,10 @@
     (pad 4 smd rect (at -0.725 -0.575 270) (size 0.95 0.85) (layers F.Cu F.Paste F.Mask)
       (net 4 DGND))
   )
+
+  (gr_line (start 150.8 83.8) (end 113.1 83.8) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 150.8 67.04) (end 150.8 83.8) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 113.1 67.04) (end 150.8 67.04) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 113.1 83.8) (end 113.1 67.04) (layer Edge.Cuts) (width 0.1))
 
 )
