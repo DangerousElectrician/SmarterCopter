@@ -991,4 +991,6 @@ $EndComp
 NoConn ~ 8700 2850
 NoConn ~ 8700 3350
 NoConn ~ 8700 3850
+Text Notes 9200 2550 2    60   ~ 0
+Mounting holes
 $EndSCHEMATC
