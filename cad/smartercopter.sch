@@ -599,9 +599,9 @@ DD
 Text Label 5050 1500 0    60   ~ 0
 DC
 Text Label 5000 1600 0    60   ~ 0
-LED2
-Text Label 5000 1700 0    60   ~ 0
 LED1
+Text Label 5000 1700 0    60   ~ 0
+LED2
 $Comp
 L R R1
 U 1 1 5491496C

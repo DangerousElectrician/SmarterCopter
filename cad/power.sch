@@ -289,7 +289,7 @@ Connection ~ 7000 2400
 Wire Wire Line
 	4750 2500 4400 2500
 Text Label 4400 2500 0    60   ~ 0
-EN
+EN_REG
 $Comp
 L C C21
 U 1 1 548E9E6E
@@ -447,7 +447,7 @@ Connection ~ 7000 3950
 Wire Wire Line
 	4750 4050 4400 4050
 Text Label 4400 4050 0    60   ~ 0
-EN
+EN_REG
 $Comp
 L AGND #PWR047
 U 1 1 548EA421
@@ -888,7 +888,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 6150 2850 6250
 Wire Wire Line
-	2850 6150 3150 6150
+	2850 6150 3500 6150
 Wire Wire Line
 	3150 6150 3150 6250
 $Comp
@@ -934,4 +934,8 @@ Connection ~ 2050 6250
 Wire Wire Line
 	1450 6250 1450 6300
 Connection ~ 1450 6250
+Connection ~ 2850 6150
+Connection ~ 3150 6150
+Text Label 3300 6150 0    60   ~ 0
+EN_REG
 $EndSCHEMATC
