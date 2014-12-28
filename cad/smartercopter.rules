@@ -53,6 +53,7 @@
     "kicad_default" "Via[0-1]_762:508_um-kicad_default"
   )
   (class default
+    "Net-(D5-Pad2)"
     (clearance_class default)
     (via_rule default)
     (rule
@@ -82,7 +83,7 @@
     )
   )
   (class power
-    "Net-(D5-Pad1)" "Net-(D5-Pad2)" "Net-(P4-Pad1)" "Net-(P4-Pad2)"
+    "Net-(D5-Pad1)" "Net-(P4-Pad1)" "Net-(P4-Pad2)"
     (clearance_class default)
     (via_rule default)
     (rule
