@@ -598,10 +598,6 @@ Text Label 5050 1400 0    60   ~ 0
 DD
 Text Label 5050 1500 0    60   ~ 0
 DC
-Text Label 5000 1600 0    60   ~ 0
-LED1
-Text Label 5000 1700 0    60   ~ 0
-LED2
 $Comp
 L R R1
 U 1 1 5491496C
@@ -689,8 +685,6 @@ Text Notes 2150 4650 0    60   ~ 0
 Decoupling caps
 NoConn ~ 3350 1500
 NoConn ~ 3350 1600
-NoConn ~ 3350 1700
-NoConn ~ 3350 1800
 NoConn ~ 3350 2600
 NoConn ~ 3350 2700
 NoConn ~ 3350 2800
@@ -919,10 +913,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 1900 3350 1900
 Wire Wire Line
-	4850 1600 5150 1600
-Wire Wire Line
-	5150 1700 4850 1700
-Wire Wire Line
 	3150 6550 3350 6550
 Wire Wire Line
 	3350 6550 3350 6750
@@ -993,4 +983,14 @@ NoConn ~ 8700 3350
 NoConn ~ 8700 3850
 Text Notes 9200 2550 2    60   ~ 0
 Mounting holes
+Wire Wire Line
+	3350 1800 3000 1800
+Text Label 3000 1800 0    60   ~ 0
+LED1
+Wire Wire Line
+	3350 1700 3000 1700
+Text Label 3000 1700 0    60   ~ 0
+LED2
+NoConn ~ 4850 1600
+NoConn ~ 4850 1700
 $EndSCHEMATC
