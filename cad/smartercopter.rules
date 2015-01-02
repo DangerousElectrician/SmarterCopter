@@ -117,12 +117,12 @@
     )
   )
   (class "kicad_default"
-    "Net-(A1-Pad1)" GND DGND AGND "Net-(C8-Pad1)" "/XOSC_Q2" "/XOSC_Q1" "Net-(C12-Pad1)"
-    "Net-(C14-Pad1)" VCCA "Net-(C21-Pad1)" "Net-(C22-Pad1)" "Net-(C23-Pad1)" VCC "Net-(C24-Pad2)" "Net-(C25-Pad2)"
-    "Net-(D1-Pad1)" "Net-(D1-Pad3)" "Net-(D5-Pad2)" "/RF_N" "/RF_P" "Net-(Q1-Pad2)" "Net-(Q1-Pad5)" "Net-(R6-Pad2)"
-    "Net-(U1-Pad37)" "Net-(U1-Pad38)" "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U2-Pad2)"
-    "Net-(U2-Pad3)" "Net-(U2-Pad4)" "Net-(U2-Pad5)" "Net-(U2-Pad6)" "Net-(U2-Pad7)" "Net-(U2-Pad14)" "Net-(U2-Pad15)" "Net-(U2-Pad16)"
-    "Net-(U2-Pad17)" "Net-(U2-Pad19)" "Net-(U2-Pad21)" "Net-(U2-Pad25)" "Net-(A1-Pad2)" "Net-(U1-Pad32)" "Net-(U1-Pad33)"
+    "Net-(A1-Pad1)" DGND AGND "Net-(C8-Pad1)" "/XOSC_Q2" "/XOSC_Q1" "Net-(C12-Pad1)" "Net-(C14-Pad1)"
+    VCCA "Net-(C21-Pad1)" "Net-(C22-Pad1)" "Net-(C23-Pad1)" VCC "Net-(C24-Pad2)" "Net-(C25-Pad2)" "Net-(D1-Pad1)"
+    "Net-(D1-Pad3)" "Net-(D5-Pad2)" "/RF_N" "/RF_P" "Net-(Q1-Pad2)" "Net-(Q1-Pad5)" "Net-(R6-Pad2)" "Net-(U1-Pad37)"
+    "Net-(U1-Pad38)" "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U2-Pad2)" "Net-(U2-Pad3)"
+    "Net-(U2-Pad4)" "Net-(U2-Pad5)" "Net-(U2-Pad6)" "Net-(U2-Pad7)" "Net-(U2-Pad14)" "Net-(U2-Pad15)" "Net-(U2-Pad16)" "Net-(U2-Pad17)"
+    "Net-(U2-Pad19)" "Net-(U2-Pad21)" "Net-(U2-Pad25)" "Net-(A1-Pad2)" "Net-(U1-Pad32)" "Net-(U1-Pad33)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -133,7 +133,7 @@
     )
   )
   (class power
-    "Net-(D5-Pad1)" "Net-(P4-Pad1)" "Net-(P4-Pad2)"
+    GND "Net-(D5-Pad1)" "Net-(P4-Pad1)" "Net-(P4-Pad2)"
     (clearance_class power)
     (via_rule power)
     (rule
