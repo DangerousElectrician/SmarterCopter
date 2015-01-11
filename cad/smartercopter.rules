@@ -117,7 +117,7 @@
     )
   )
   (class "kicad_default"
-    AGND DGND "Net-(A1-Pad1)" GND "Net-(C8-Pad1)" "Net-(C9-Pad1)" "/XOSC_Q2" "/XOSC_Q1"
+    "Net-(A1-Pad1)" GND DGND AGND "Net-(C8-Pad1)" "Net-(C9-Pad1)" "/XOSC_Q2" "/XOSC_Q1"
     "Net-(C12-Pad1)" "Net-(C14-Pad1)" VCCA "Net-(C21-Pad1)" "Net-(C22-Pad1)" "Net-(C23-Pad1)" VCC "Net-(C24-Pad2)"
     "Net-(C25-Pad2)" "Net-(D1-Pad1)" "Net-(D1-Pad3)" "Net-(D3-Pad2)" "/RF_N" "/RF_P" "Net-(Q1-Pad2)" "Net-(Q1-Pad5)"
     "Net-(R6-Pad2)" "Net-(U1-Pad37)" "Net-(U1-Pad38)" "Net-(U1-Pad4)" "Net-(U1-Pad5)" "Net-(U1-Pad6)" "Net-(U1-Pad16)" "Net-(U1-Pad17)"
