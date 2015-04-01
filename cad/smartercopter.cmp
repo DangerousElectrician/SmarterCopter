@@ -1,4 +1,4 @@
-Cmp-Mod V01 Genere par PcbNew le Wed 14 Jan 2015 07:06:02 PM CST
+Cmp-Mod V01 Genere par PcbNew le Wed 01 Apr 2015 03:09:55 PM CDT
 
 BeginCmp
 TimeStamp = 54A07A02
@@ -9,7 +9,7 @@ IdModule  = hlib:2450AT42A100;
 EndCmp
 
 BeginCmp
-TimeStamp = 5499B99C
+TimeStamp = 54D51F82
 Path = /548DF87F/548DFD04
 Reference = BT1;
 ValeurCmp = BATTERY;
@@ -49,7 +49,7 @@ IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = 54A1D2D5
+TimeStamp = 54D53097
 Path = /548D18DD
 Reference = C5;
 ValeurCmp = 100nF;
@@ -113,7 +113,7 @@ IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = 54A07A0F
+TimeStamp = 54D52DAC
 Path = /549594ED
 Reference = C13;
 ValeurCmp = DNM;
@@ -129,7 +129,7 @@ IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = 549CF4B5
+TimeStamp = 54D53042
 Path = /548C976B/548D97BB
 Reference = C15;
 ValeurCmp = 100nF;
@@ -177,7 +177,7 @@ IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = 54A075E5
+TimeStamp = 54D4FA3B
 Path = /548DF87F/548E9E6E
 Reference = C21;
 ValeurCmp = 4.7uF;
@@ -209,7 +209,7 @@ IdModule  = Capacitors_SMD:C_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = 54A07597
+TimeStamp = 54D4F98D
 Path = /548DF87F/548E9ECB
 Reference = C25;
 ValeurCmp = 22pF;
@@ -377,7 +377,7 @@ IdModule  = Resistors_SMD:R_0402;
 EndCmp
 
 BeginCmp
-TimeStamp = 54987D39
+TimeStamp = 54D52B75
 Path = /548DF87F/5490905D
 Reference = R9;
 ValeurCmp = 20k;
@@ -505,7 +505,7 @@ IdModule  = hlib:PTS840GMSMTRLFS;
 EndCmp
 
 BeginCmp
-TimeStamp = 54A07C1B
+TimeStamp = 54D53029
 Path = /548C976B/548C98CF
 Reference = U2;
 ValeurCmp = MPU-9250;
@@ -537,7 +537,7 @@ IdModule  = SMD_Packages:WSON-8-1EP;
 EndCmp
 
 BeginCmp
-TimeStamp = 54A083F2
+TimeStamp = 54D52DE3
 Path = /54948988
 Reference = X1;
 ValeurCmp = 32Mhz;
